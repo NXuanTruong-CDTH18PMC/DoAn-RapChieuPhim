@@ -1,6 +1,7 @@
 # DoAn-RapChieuPhim
 Luồng Làm Việc
 (TRƯỚC KHI LAM 1 CHỨC NĂNG MỚI PHẢI PULL VỀ ĐỂ CÓ CODE HOÀN THIÊN)
+
   B1:Tạo branch mới trên máy để làm 1 chức năng trong project (git checkout -b "new branch name" 
   
   B2:Code và làm việc trên branch đó
