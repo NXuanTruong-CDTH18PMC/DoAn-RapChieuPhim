@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListFilm</string>
+    <string name="add_film">Add Film</string>
+    <string name="list_film">List Film</string>
+</resources>
