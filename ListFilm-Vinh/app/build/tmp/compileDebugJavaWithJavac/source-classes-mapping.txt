@@ -1,0 +1,13 @@
+com/example/listfilm/MainActivity.java
+ com.example.listfilm.MainActivity
+ com.example.listfilm.MainActivity$1
+com/example/listfilm/ListListener.java
+ com.example.listfilm.ListListener
+com/example/listfilm/ListAdapter.java
+ com.example.listfilm.ListAdapter
+ com.example.listfilm.ListAdapter$ListViewHolder
+ com.example.listfilm.ListAdapter$ListViewHolder$1
+com/example/listfilm/BuildConfig.java
+ com.example.listfilm.BuildConfig
+com/example/listfilm/ListFilm.java
+ com.example.listfilm.ListFilm
