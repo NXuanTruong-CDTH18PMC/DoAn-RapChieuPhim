@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "Unit 2-4.1"
