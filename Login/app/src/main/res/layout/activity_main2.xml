@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/icon" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cinema"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="45sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CDTH18PMC"
+            android:textColor="#000"
+            android:textSize="45sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="60dp"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#818181"
+                    android:textSize="45sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="It's easier to sign up now"
+                    android:textColor="#818181"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_btn">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:tint="#fff"
+                    android:src="@drawable/facebook" />
+                <Button
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:text="Continue With Facebook"
+                    android:background="#00000000"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <Button
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:onClick="Singup"
+                android:background="@drawable/bg_btn2"
+                android:text="I_ll_use_mail_or_phone"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+            <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                     <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/twitter" />
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/google_plus" />
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/linkedin" />
+             </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have account ?"
+                android:layout_centerVertical="true"
+                android:textColor="#818181"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log in"
+                android:onClick="LogIn"
+                android:layout_marginLeft="3dp"
+                android:layout_centerVertical="true"
+                android:textColor="#2E2FE8"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>
