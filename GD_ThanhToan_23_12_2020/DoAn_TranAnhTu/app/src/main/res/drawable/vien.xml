@@ -4,8 +4,8 @@
         android:width="1dip"
         android:color="#4b5320" />
     <solid
-        android:color="#ffa500" />
-    <corners android:radius="30dp"/>
+        android:color="#f4a460" />
+    <corners android:radius="5dp"/>
     <padding
         android:left="10dp"
         android:top="10dp"

@@ -13,4 +13,5 @@
     <string name="textview">TextView</string>
     <string name="quay_lai">Quay lại</string>
     <string name="thanh_toan">Thanh Toán</string>
+    <string name="h_v_ten">Họ và tên:</string>
 </resources>
