@@ -1,0 +1,29 @@
+{
+  "ds": [
+    {
+
+      "TenPhim": "TIEC TRANG MAU",
+      "MaGhe": "A01",
+      "SoLuong": "1",
+    "ThanhTien":"100.000 VND"}
+
+  ],
+
+
+  "dsNguoidung": [
+    {
+      "id": "0",
+      "hoten": "Tran Anh Tu",
+      "email": "anhtutran7@gmail.com",
+      "sdt": "0382790064"
+    }
+
+  ],
+
+  "dsphim": [
+    {
+    }
+
+  ]
+
+}
