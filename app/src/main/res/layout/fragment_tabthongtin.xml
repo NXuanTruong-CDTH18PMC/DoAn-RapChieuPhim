@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layoutthongtin"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity_ChiTiet.TabThongTin">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nội Dung"
+        android:textStyle="bold"
+        android:textSize="21sp">
+    </TextView>
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/noidung"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine">
+    </TextView>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đạo Diễn"
+        android:textStyle="bold"
+        android:textSize="21sp">
+    </TextView>
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/daodien"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/at"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine">
+    </TextView>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diễn Viên"
+        android:textStyle="bold"
+        android:textSize="21sp">
+    </TextView>
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/dienvien"
+        android:drawableStart="@drawable/at"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine">
+    </TextView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
