@@ -4,6 +4,7 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -54,6 +55,15 @@ public class Activity_ChiTietPhim extends AppCompatActivity {
         anhxa();
        layDsPhim();
         xuatThongtin();
+        Button btnthanhtoan=(Button)findViewById(R.id.btn_thanhtoan);
+        btnthanhtoan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Activity_ChiTietPhim.this,MainActivity1.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_from_left, R.anim.slide_out_to_right);
+            }
+        });
         txtChamDiem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,7 +73,7 @@ public class Activity_ChiTietPhim extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Activity_ChiTietPhim.this,MainActivity.class);
+                Intent intent = new Intent(Activity_ChiTietPhim.this,MainActivity1.class);
                 intent.putExtra("key",phim.getTrailer());
                 startActivity(intent);
             }

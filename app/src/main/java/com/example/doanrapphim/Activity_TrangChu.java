@@ -72,6 +72,9 @@ public class Activity_TrangChu extends AppCompatActivity {
                 Intent intent;
                 switch (item.getItemId()) {
                     case R.id.nav_dangxuat:
+                        intent = new Intent(Activity_TrangChu.this, Activity_DangNhap1.class);
+                        startActivity(intent);
+                        break;
                     case R.id.nav_ds:
                          intent = new Intent(Activity_TrangChu.this, Activity_DanhSachPhim.class);
                         startActivity(intent);

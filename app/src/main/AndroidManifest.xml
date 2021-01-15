@@ -21,7 +21,10 @@
             android:parentActivityName=".Activity_TrangChu" />
         <activity android:name=".Activity_ChiTiet.TabDatGhe" />
         <activity android:name=".Activity_TrangCaNhan" android:parentActivityName=".Activity_TrangChu"></activity>
-        <activity android:name=".MainActivity" />
+
+        <activity android:name=".MainActivity1" />
+        <activity android:name=".MainActivity2" />
+
         <activity android:name=".Activity_DangNhap1">
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />
